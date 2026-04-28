@@ -330,7 +330,6 @@ const generateDocument = (name: string) => {
       }
 
       .name::before {
-        content: "{{";
         margin-right: 13px;
         font-family: Georgia, "Times New Roman", Times, serif;
         font-style: normal;
@@ -338,7 +337,6 @@ const generateDocument = (name: string) => {
       }
 
       .name::after {
-        content: "}}";
         margin-left: 13px;
         font-family: Georgia, "Times New Roman", Times, serif;
         font-style: normal;
